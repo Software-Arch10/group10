@@ -1,66 +1,101 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Software Architecture - CISC 322</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #2a9d8f, #264653);
+            color: #fff;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-        }
-
-        .container {
-            text-align: center;
-            background: #ffffff;
+            min-height: 100vh;
             padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            max-width: 500px;
         }
 
-        h1 {
-            font-size: 1.8rem;
+        .container, .assignment {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
             margin-bottom: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .container:hover, .assignment:hover {
+            transform: scale(1.02);
+        }
+
+        h1, h2 {
             color: #2a9d8f;
+            font-weight: 600;
+            margin-bottom: 15px;
         }
 
         ul {
-            list-style-type: none;
+            list-style: none;
             padding: 0;
         }
 
         li {
             font-size: 1.1rem;
-            margin: 10px 0;
+            margin: 8px 0;
             padding: 10px;
             background: #e9f5f4;
-            border: 1px solid #2a9d8f;
+            border: 2px solid #2a9d8f;
             border-radius: 8px;
+            font-weight: 500;
+            color: #264653;
+            transition: background 0.3s ease-in-out, transform 0.2s;
+        }
+
+        li:hover {
+            background: #2a9d8f;
+            color: #fff;
+            transform: scale(1.05);
+        }
+
+        .assignment p {
+            font-size: 1.1rem;
+            color: #264653;
+            font-weight: 500;
+            margin: 5px 0;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>CISC 322</h1>
-        <h1>Group 10</h1>
-        <h2>Group Members: </h2>
+        <h1>CISC 322 - Group 10</h1>
+        <h2>Group Members:</h2>
         <ul>
-            <li>Team Lead: Chuka Uwefoh</li>
-            <li>Presenter: Lore Chiepe</li>
-            <li>presenter: James Wang</li>
-            <li>Member 4: Henry Chen</li>
-            <li>Member 5: Zachary Stephens</li>
-            <li>Member 6: Ryan Jokhu</li>
+            <li><strong>Team Lead:</strong> Chuka Uwefoh</li>
+            <li><strong>Presenter:</strong> Lore Chiepe</li>
+            <li><strong>Presenter:</strong> James Wang</li>
+            <li><strong>Member 4:</strong> Henry Chen</li>
+            <li><strong>Member 5:</strong> Zachary Stephens</li>
+            <li><strong>Member 6:</strong> Ryan Jokhu</li>
         </ul>
+    </div>
+
+    <div class="assignment">
+        <h2>Assignment 1</h2>
+        <p><strong>Title:</strong> Conceptual Architecture Report of GNUstep</p>
+        <p><strong>Report:</strong> Available Soon. </p>
+        <p><strong>Presentation:</strong> Available Soon.</p>
     </div>
 </body>
 </html>
