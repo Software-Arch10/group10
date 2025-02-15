@@ -6,75 +6,92 @@
     <title>Software Architecture - CISC 322</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+     * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-        body {
-            font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #2a9d8f, #264653);
-            color: #fff;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            padding: 20px;
-        }
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #2a9d8f, #264653);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
 
-        .container, .assignment {
-            background: #ffffff;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-            width: 90%;
-            max-width: 500px;
-            text-align: center;
-            margin-bottom: 20px;
-            transition: transform 0.3s ease-in-out;
-        }
+.container, .assignment {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
 
-        .container:hover, .assignment:hover {
-            transform: scale(1.02);
-        }
+.container:hover, .assignment:hover {
+    transform: scale(1.02);
+}
 
-        h1, h2 {
-            color: #2a9d8f;
-            font-weight: 600;
-            margin-bottom: 15px;
-        }
+h1, h2 {
+    color: #2a9d8f;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
 
-        ul {
-            list-style: none;
-            padding: 0;
-        }
+ul {
+    list-style: none;
+    padding: 0;
+}
 
-        li {
-            font-size: 1.1rem;
-            margin: 8px 0;
-            padding: 10px;
-            background: #e9f5f4;
-            border: 2px solid #2a9d8f;
-            border-radius: 8px;
-            font-weight: 500;
-            color: #264653;
-            transition: background 0.3s ease-in-out, transform 0.2s;
-        }
+li {
+    font-size: 1.1rem;
+    margin: 8px 0;
+    padding: 10px;
+    background: #e9f5f4;
+    border: 2px solid #2a9d8f;
+    border-radius: 8px;
+    font-weight: 500;
+    color: #264653;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
 
-        li:hover {
-            background: #2a9d8f;
-            color: #fff;
-            transform: scale(1.05);
-        }
+li:hover {
+    background: #2a9d8f;
+    color: #fff;
+    transform: scale(1.05);
+}
 
-        .assignment p {
-            font-size: 1.1rem;
-            color: #264653;
-            font-weight: 500;
-            margin: 5px 0;
-        }
+.assignment1, .assignment2, .assignment3 p {
+    font-size: 1.1rem;
+    color: #264653;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+/* Additional styles for assignment sections */
+.assignment1, .assignment2, .assignment3 {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.assignment1:hover, .assignment2:hover, .assignment3:hover {
+    transform: scale(1.02);
+}
     </style>
 </head>
 <body>
@@ -91,9 +108,23 @@
         </ul>
     </div>
 
-    <div class="assignment">
+    <div class="assignment1">
         <h2>Assignment 1</h2>
         <p><strong>Title:</strong> Conceptual Architecture Report of GNUstep</p>
+        <p><strong>Report:</strong> Available Soon. </p>
+        <p><strong>Presentation:</strong> Available Soon.</p>
+    </div>
+
+    <div class="assignment2">
+        <h2>Assignment 2</h2>
+        <p><strong>Title:</strong> Concrete Architecture Report of GNUstep</p>
+        <p><strong>Report:</strong> Available Soon. </p>
+        <p><strong>Presentation:</strong> Available Soon.</p>
+    </div>
+
+    <div class="assignment3">
+        <h2>Assignment 3</h2>
+        <p><strong>Title:</strong> Proposal for Enhancement</p>
         <p><strong>Report:</strong> Available Soon. </p>
         <p><strong>Presentation:</strong> Available Soon.</p>
     </div>
